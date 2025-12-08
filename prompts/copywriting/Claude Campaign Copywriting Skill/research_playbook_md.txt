@@ -1,0 +1,186 @@
+# Research Playbook: Finding Custom Signals
+
+## The Research Mindset
+
+**Bad research:** "Let me find their role and company size so I can plug them into my template."
+
+**Good research:** "What is happening in their world RIGHT NOW that makes my solution urgent?"
+
+The best cold emails feel like you've been watching their company for weeks. That only happens when you find signals that are:
+1. **Specific** (not "you're growing" but "you hired 12 SDRs in Q4")
+2. **Recent** (last 90 days ideally, last 6 months max)
+3. **Directionally aligned** with the pain your product solves
+
+---
+
+## The Custom Signal Framework
+
+### Step 1: Define your "perfect signal"
+Before you research anyone, complete this sentence:
+**"The ideal prospect would show evidence of _____ [specific behavior/change/problem] because it means they're experiencing _____ [pain] right now."**
+
+**Examples:**
+- *Data enrichment tool:* "...show evidence of **manual data entry or incomplete CRM fields** because it means they're **losing deals to bad data**."
+- *Sales coaching platform:* "...show evidence of **inconsistent messaging across reps or high new-hire counts** because it means **ramp time is killing their pipeline**."
+- *Marketing ops tool:* "...show evidence of **fragmented tech stack or manual reporting** because it means they're **making decisions on gut, not data**."
+
+### Step 2: Reverse-engineer where that signal lives
+Ask: "If this pain exists, what would be publicly visible?"
+
+| Pain/Outcome | Where the signal hides |
+|--------------|------------------------|
+| Scaling team without process | LinkedIn: hiring spikes; Glassdoor: "no training" reviews; job posts: vague responsibilities |
+| Outbound quality dropping | Their own cold emails (sign up for their list!); generic messaging; no personalization |
+| Tech debt / duct-tape solutions | GitHub repos, API docs, Zapier templates they built, StackOverflow answers by their eng team |
+| Market repositioning | Website refreshes, new messaging, updated case studies, exec thought leadership shifts |
+| Churn risk / retention focus | Pricing page changes, new "success" roles hiring, community posts asking about adoption |
+| Competitive pressure | G2/Capterra reviews mentioning competitors, blog posts about "vs [competitor]," defensive positioning |
+
+### Step 3: Hunt with intent (the 6–7 minute deep dive)
+Don't just Google "[company name] news." Use these search operators:
+
+**For hiring signals:**
+- `site:linkedin.com/jobs "[company]" [role keywords]`
+- `"[company name]" hiring [department]` (last 90 days filter)
+
+**For tech stack / process reveals:**
+- `site:github.com "[company]"` or `"[domain]"`
+- `site:zapier.com "[company]"` (templates = DIY solutions)
+- Footer of their site → "powered by" badges
+
+**For competitive/pressure signals:**
+- `site:g2.com "[company product name]" review` (read the 3-star reviews for pain points)
+- `"[company]" alternative` or `"switching from [their current tool]"`
+- Reddit, HackerNews: `site:reddit.com "[company name]" problem`
+
+**For content/messaging shifts:**
+- Wayback Machine → compare homepage from 6 months ago vs. now
+- LinkedIn posts by execs → themes, urgency, topics
+- Their email nurture (sign up!) → frequency, personalization, CTAs
+
+**For growth/change signals:**
+- `"[company name]" funding OR acquisition OR expansion` (news tab, last 6 months)
+- LinkedIn: employee count over time (rapid growth = scaling pains)
+- Glassdoor: recent reviews mentioning "growing pains" or "lack of process"
+
+---
+
+## Custom Signal Examples (Real Scenarios)
+
+### Scenario 1: Selling to a sales tool
+**Standard variables found:**
+- Company: SalesLoft competitor, 200 employees, raised Series B
+- Role: VP of Sales, 3 years tenure
+
+**Custom signal hunt (what makes this different?):**
+- Checked their G2 page → 47 reviews, avg 4.2 stars
+- Read 10 most recent reviews → 6 mention "hard to customize workflows"
+- Searched `site:linkedin.com/jobs "SalesLoft competitor" solutions engineer` → 4 open roles
+- **Custom signal:** They're hiring SEs to build custom workflows because their product isn't flexible enough
+
+**Email angle:** "Saw you're hiring 4 SEs—are you building custom workflows for every enterprise deal, or is there a plan to productize those patterns?"
+
+---
+
+### Scenario 2: Selling data enrichment to a growth-stage company
+**Standard variables found:**
+- Company: B2B SaaS, 50 employees, selling to mid-market
+- Role: Head of Revenue Ops, 1.5 years tenure
+
+**Custom signal hunt:**
+- Pulled their LinkedIn → bio says "Building scalable GTM systems"
+- Checked recent posts → shared a thread 3 weeks ago about "messy CRM data slowing down pipeline review"
+- Searched job board → hiring 2 SDRs, 1 AE
+- Signed up for their product → email nurture was generic (no firmographic personalization)
+- **Custom signal:** They're scaling outbound but their own personalization is generic—proof of tooling gap
+
+**Email angle:** "Saw your thread on messy CRM data 3 weeks ago—curious, have you figured out how to keep lead data clean as you scale to 2 new SDRs, or still ad hoc?"
+
+---
+
+### Scenario 3: Selling compliance/security tooling
+**Standard variables found:**
+- Company: Healthcare tech, 120 employees, SOC 2 compliant
+- Role: CTO, 4 years tenure
+
+**Custom signal hunt:**
+- Checked `/security` page on their site → last updated 18 months ago
+- Searched news → no recent breaches, but competitor had one 6 months ago
+- LinkedIn job posts → hiring "Senior Security Engineer" (new role, not backfill)
+- Read CTO's recent posts → talking about "AI in healthcare" but nothing about security
+- **Custom signal:** They're behind on public trust signals while competitors get breached—and they're finally hiring for it
+
+**Email angle:** "Noticed your security page hasn't been refreshed in 18 months while [competitor] dealt with a breach in Q2. Is the new Security Engineer hire part of a bigger push to modernize your trust center, or still early days?"
+
+---
+
+## The "So What?" Test
+
+Before you use a signal in your email, ask:
+1. **Is this signal recent?** (If it's older than 6 months, it's stale—skip it)
+2. **Does this signal connect to MY offer?** (Hiring engineers ≠ relevant for a sales tool, unless it's sales engineers)
+3. **Would THEY care that I noticed this?** (If it's public info everyone has, it's not impressive)
+
+**Good signal:** "You posted about pipeline review taking 4 hours last week"  
+**Bad signal:** "I saw you have 200 employees" (so does everyone else)
+
+---
+
+## Campaign-Specific Research Templates
+
+For each new campaign, define your custom research checklist:
+
+**Template:**
+```
+Campaign: [Product/Offer]
+ICP: [Role + Company Type]
+Core Pain: [What they're struggling with]
+
+Custom Signals to Hunt:
+1. [Signal type] → [Where to find it] → [How it proves pain]
+2. [Signal type] → [Where to find it] → [How it proves pain]
+3. [Signal type] → [Where to find it] → [How it proves pain]
+
+Time Budget:
+- 3 min: Standard variables (role, tenure, company basics)
+- 7 min: Hunt for at least 1 of the 3 custom signals above
+```
+
+**Example for ABM tool campaign:**
+```
+Campaign: ABM orchestration platform
+ICP: VP Marketing at Series B+ SaaS (50–200 employees)
+Core Pain: Running generic demand gen when they need account-specific plays
+
+Custom Signals to Hunt:
+1. Content strategy → Blog/resources page → Generic "top of funnel" content, no named case studies with logos
+2. Event strategy → Check their event pages → Open webinars vs. closed executive dinners (ABM indicator)
+3. Paid ads → Facebook Ad Library → Broad targeting vs. account-specific creative
+4. Community presence → LinkedIn posts → Talking about "MQLs" vs. "pipeline from target accounts"
+
+Time Budget:
+- 3 min: LinkedIn (role, tenure, recent posts)
+- 7 min: Hunt their content + event + ads footprint
+```
+
+---
+
+## Red Flags (When NOT to Send)
+
+If after 10 minutes you can't find a custom signal:
+- ❌ Don't send a generic email "just to hit volume"
+- ❌ Don't make up a signal or assume pain
+- ✅ Mark them as "needs more research" and move on
+- ✅ Revisit in 30–60 days when something changes
+
+**The rule:** If you can't point to a specific, recent, public signal that connects to your offer, you're not ready to email them yet.
+
+---
+
+## Skill Integration
+
+When using this research playbook:
+1. **Before drafting:** Complete the "perfect signal" sentence for your campaign
+2. **During research:** Spend 6–7 minutes hunting that custom signal
+3. **In the email:** Lead with the custom signal in the first line (using {{custom_signal}} variable)
+4. **In QA:** Verify the signal is specific, recent, and directionally aligned with your offer
